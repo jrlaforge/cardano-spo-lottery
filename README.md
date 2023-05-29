@@ -1,6 +1,27 @@
+# Cardano Spo Lottery
+
+```
+source venv/bin/activate
+pip install -r requirements.txt
+pip install -e src/
+
+make test
+```
+
+### Run 
+
+FLASK_APP=entrypoints/flask_app.py FLASK_DEBUG=1 flask run --port=4500
 
 
-# TODO : refactor draw_raffle with LotteryWinner object
-# TODO : Remove lotteryStrategy from lottery object, keep only lottery_strategy_type
-# TODO : add orm tests with lottery, ...
-# TODO : begin repository, than add service
+docker-compose build && docker-compose up -d && docker-compose logs
+
+
+### Alembic 
+
+Edit alembic.ini
+alembic revision --autogenerate -m "Add min live stake"
+alembic current
+alembic upgrade head
+
+
+alembic downgrade -1
