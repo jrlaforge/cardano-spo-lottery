@@ -1,5 +1,7 @@
 # Cardano Spo Lottery Backend
 
+Note : Work in progress
+
 ## Context
 
 Attracting delegators to stake on their pool is not an easy task for a Cardano stake pool operator.
@@ -59,3 +61,4 @@ alembic upgrade head
 
 alembic downgrade -1
 ```
+
