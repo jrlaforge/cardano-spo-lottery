@@ -17,10 +17,10 @@ logs:
 	docker-compose logs app | tail -100
 
 test:
-	pytest --tb=short
+	pytest --tb=short tests
 
 test-services:
-	pytest --tb=short test_services.py
+	pytest --tb=short tests/test_services.py
 
 watch-tests:
 	ls *.py | entr pytest --tb=short
