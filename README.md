@@ -62,3 +62,16 @@ alembic upgrade head
 alembic downgrade -1
 ```
 
+## Donation and Sponsor
+
+If you find this project helpful, please consider staking with HIPPO pool.
+
+We are still looking for more delegators, if you’d like to join the HIPPO family, please consider delegating to our pool (HIPPO).
+
+TICKER: HIPPO
+
+Pool ID: 718f15efee599d498a7582c4f56a940cfebffc14e850656db8d529e1
+
+You can support us by donating ADA to our ADA Handle `pycardano` or to the address below:
+
+[`addr1q8nmzwefg52kg0uqsdfnpumtlh56hp6psuvctsaernsc9ggjglhyl8fua70uh94m8y4hw3n2l8zh9wuvljdy28avtajs38af47`](https://cardanoscan.io/address/addr1q8nmzwefg52kg0uqsdfnpumtlh56hp6psuvctsaernsc9ggjglhyl8fua70uh94m8y4hw3n2l8zh9wuvljdy28avtajs38af47)
